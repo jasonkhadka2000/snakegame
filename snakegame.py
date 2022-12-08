@@ -16,7 +16,7 @@ window_x=800
 window_y=800
 gamewindow=pygame.display.set_mode((window_x,window_y))
 pygame.display.set_caption("mrjk snake game")
-font = pygame.font.SysFont(None, 55)
+font = pygame.font.SysFont(None, 60)
 clock=pygame.time.Clock()
 
 def plotsnake(gamewindow,colour,head,snake_size):
