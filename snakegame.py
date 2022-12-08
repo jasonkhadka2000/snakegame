@@ -12,7 +12,7 @@ blue=(0,0,255)
 
 #pygame initialisation
 x=pygame.init()
-window_x=500
+window_x=800
 window_y=800
 gamewindow=pygame.display.set_mode((window_x,window_y))
 pygame.display.set_caption("mrjk snake game")
